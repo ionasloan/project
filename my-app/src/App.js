@@ -6,7 +6,7 @@ import film from './images/film.jpg';
 function App() {
   return (
     <div className="App">
-      <header className="Glasgow Film festival">
+      <header className="Glasgow Film festival - Coming to you March 2023">
       <img src={film} alt="film" width="400" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
