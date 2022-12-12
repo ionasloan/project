@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="Glasgow Film festival">
-      <img src={film} alt="film" />
+      <img src={film} alt="film" width="400" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
