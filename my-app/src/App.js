@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</h1>
-        <h2>TEST</h2>
+        <h1>Glasgow Film Festival</h1>
         <img src={film} alt="film" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
