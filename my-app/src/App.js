@@ -11,7 +11,7 @@ function App() {
         <h1>Glasgow Film Festival  - Coming to you March 2023</h1>
         <img src={film} alt="film" />
         <p>
-         Come join us 
+         Come join us it will be fun
         </p>
   
       </header>
