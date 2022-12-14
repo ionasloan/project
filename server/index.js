@@ -7,14 +7,14 @@ import eventsRoutes from './routes/events.js';
 
 const app = express(); 
 
-//defines our route
-app.use('/events', eventsRoutes )
 
 // app.use(bodyParser.json({limit: "30mb, extended: true"}));
 // app.use(bodyParser.urlencoded({limit: "30mb, extended: true"}));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json({extended: true}))
 app.use(cors());
+//defines our route
+app.use('/events', eventsRoutes )
 
 //db connection including link and port
 const CONNECTION_URL = 'mongodb+srv://ourProject:Ourproject6789@cluster0.ops9xxv.mongodb.net/?retryWrites=true&w=majority';
