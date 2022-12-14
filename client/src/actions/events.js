@@ -17,3 +17,13 @@ export const getEvents = () => async (dispatch) => {
 }
 
 // const action = { type: 'FETCH_ALL', payload: [] }
+
+export const createEvent = (post) => async (dispatch) => {
+    try {
+        const { data } = await api.createEvent(post);
+
+        dispatch({ type: 'CREATE', payload: data });
+    } catch (error) {
+
+    }
+}
